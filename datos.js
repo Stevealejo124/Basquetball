@@ -1,0 +1,63 @@
+window.LBJ = {
+  "liga": {
+    "nombre": "Liga Local de Baloncesto de Jiquilisco",
+    "torneo": "Torneo Navideño 2026",
+    "sede": "Parque Roberto Edmundo Canessa",
+    "actualizado": "2026-11-14",
+    "totalJornadas": 7,
+    "clasifican": 4
+  },
+  "equipos": [
+    {"id": "thb", "nombre": "Thunder Bolts", "corto": "THB", "color": "#F5A623", "color2": "#8a5a00", "barrio": "Barrio El Centro"},
+    {"id": "pac", "nombre": "Pacman", "corto": "PAC", "color": "#FFD23F", "color2": "#8f7500", "barrio": "Colonia Santa Lucía"},
+    {"id": "jky", "nombre": "Jiky Heats", "corto": "JKY", "color": "#E4572E", "color2": "#7e2410", "barrio": "Barrio San José"},
+    {"id": "apx", "nombre": "Apex", "corto": "APX", "color": "#2EC4B6", "color2": "#0d5f58", "barrio": "Cantón El Zapote"},
+    {"id": "war", "nombre": "Warriors", "corto": "WAR", "color": "#3A86FF", "color2": "#123f8a", "barrio": "Colonia Ivu"},
+    {"id": "hlc", "nombre": "Halcones", "corto": "HAL", "color": "#9B5DE5", "color2": "#4b2380", "barrio": "Barrio El Calvario"},
+    {"id": "ttn", "nombre": "Titanes TB", "corto": "TIT", "color": "#00BB7E", "color2": "#00613f", "barrio": "Tierra Blanca"},
+    {"id": "rpt", "nombre": "Raptors JQ", "corto": "RAP", "color": "#EF476F", "color2": "#8a1533", "barrio": "Caserío Los Amates"}
+  ],
+  "jornadas": [
+    {"numero": 1, "fecha": "2026-10-18", "partidos": [{"local": "thb", "visita": "rpt", "hora": "17:00", "pl": 76, "pv": 59}, {"local": "pac", "visita": "ttn", "hora": "17:00", "pl": 73, "pv": 61}, {"local": "jky", "visita": "hlc", "hora": "18:30", "pl": 74, "pv": 63}, {"local": "apx", "visita": "war", "hora": "18:30", "pl": 63, "pv": 76}]},
+    {"numero": 2, "fecha": "2026-10-25", "partidos": [{"local": "rpt", "visita": "hlc", "hora": "17:00", "pl": 62, "pv": 69}, {"local": "war", "visita": "ttn", "hora": "17:00", "pl": 79, "pv": 58}, {"local": "apx", "visita": "jky", "hora": "18:30", "pl": 66, "pv": 71}, {"local": "thb", "visita": "pac", "hora": "18:30", "pl": 72, "pv": 70}]},
+    {"numero": 3, "fecha": "2026-11-01", "partidos": [{"local": "pac", "visita": "rpt", "hora": "17:00", "pl": 75, "pv": 60}, {"local": "jky", "visita": "ttn", "hora": "17:00", "pl": 73, "pv": 56}, {"local": "thb", "visita": "hlc", "hora": "18:30", "pl": 75, "pv": 64}, {"local": "war", "visita": "apx", "hora": "18:30", "pl": 77, "pv": 65}]},
+    {"numero": 4, "fecha": "2026-11-08", "partidos": [{"local": "rpt", "visita": "apx", "hora": "17:00", "pl": 61, "pv": 70}, {"local": "hlc", "visita": "ttn", "hora": "17:00", "pl": 68, "pv": 60}, {"local": "war", "visita": "pac", "hora": "18:30", "pl": 76, "pv": 71}, {"local": "jky", "visita": "thb", "hora": "18:30", "pl": 72, "pv": 74}]},
+    {"numero": 5, "fecha": "2026-11-15", "partidos": [{"local": "ttn", "visita": "rpt", "hora": "17:00", "pl": null, "pv": null}, {"local": "apx", "visita": "pac", "hora": "17:00", "pl": null, "pv": null}, {"local": "thb", "visita": "war", "hora": "18:30", "pl": null, "pv": null}, {"local": "hlc", "visita": "jky", "hora": "18:30", "pl": null, "pv": null}]},
+    {"numero": 6, "fecha": "2026-11-22", "partidos": [{"local": "rpt", "visita": "war", "hora": "17:00", "pl": null, "pv": null}, {"local": "pac", "visita": "hlc", "hora": "17:00", "pl": null, "pv": null}, {"local": "jky", "visita": "apx", "hora": "18:30", "pl": null, "pv": null}, {"local": "ttn", "visita": "thb", "hora": "18:30", "pl": null, "pv": null}]},
+    {"numero": 7, "fecha": "2026-11-29", "partidos": [{"local": "war", "visita": "jky", "hora": "17:00", "pl": null, "pv": null}, {"local": "hlc", "visita": "apx", "hora": "17:00", "pl": null, "pv": null}, {"local": "rpt", "visita": "pac", "hora": "18:30", "pl": null, "pv": null}, {"local": "thb", "visita": "ttn", "hora": "18:30", "pl": null, "pv": null}]}
+  ],
+  "jugadores": [
+    {"nombre": "Kevin Menjívar", "equipo": "thb", "pos": "G", "num": 1, "pj": 4, "pts": 16.6, "reb": 3.4, "ast": 5.2, "rob": 2.1, "tap": 0.2},
+    {"nombre": "Óscar Renderos", "equipo": "thb", "pos": "F", "num": 7, "pj": 4, "pts": 15.2, "reb": 6.1, "ast": 2.4, "rob": 1.3, "tap": 0.6},
+    {"nombre": "Brayan Cortez", "equipo": "thb", "pos": "C", "num": 15, "pj": 4, "pts": 11.8, "reb": 7.9, "ast": 1.1, "rob": 0.7, "tap": 1.9},
+    {"nombre": "Josué Alvarado", "equipo": "thb", "pos": "G", "num": 3, "pj": 3, "pts": 8.4, "reb": 2.6, "ast": 4.8, "rob": 1.6, "tap": 0.1},
+    {"nombre": "Marlon Pacas", "equipo": "pac", "pos": "G", "num": 10, "pj": 4, "pts": 12.1, "reb": 3.0, "ast": 10.0, "rob": 2.3, "tap": 0.2},
+    {"nombre": "Édgar Sorto", "equipo": "pac", "pos": "F", "num": 23, "pj": 4, "pts": 13.4, "reb": 5.5, "ast": 2.1, "rob": 1.1, "tap": 0.8},
+    {"nombre": "Nelson Vigil", "equipo": "pac", "pos": "C", "num": 32, "pj": 4, "pts": 9.6, "reb": 7.2, "ast": 0.9, "rob": 0.5, "tap": 1.6},
+    {"nombre": "Alexis Guardado", "equipo": "pac", "pos": "F", "num": 8, "pj": 4, "pts": 7.8, "reb": 4.4, "ast": 1.7, "rob": 0.9, "tap": 0.4},
+    {"nombre": "Rodrigo Henríquez", "equipo": "jky", "pos": "G", "num": 5, "pj": 4, "pts": 14.3, "reb": 3.8, "ast": 9.9, "rob": 2.5, "tap": 0.3},
+    {"nombre": "Fátima Recinos", "equipo": "jky", "pos": "G", "num": 11, "pj": 4, "pts": 10.7, "reb": 2.9, "ast": 6.4, "rob": 2.0, "tap": 0.1},
+    {"nombre": "Carlos Zepeda", "equipo": "jky", "pos": "F", "num": 21, "pj": 4, "pts": 12.9, "reb": 6.3, "ast": 2.2, "rob": 1.2, "tap": 0.7},
+    {"nombre": "Miguel Barahona", "equipo": "jky", "pos": "C", "num": 44, "pj": 3, "pts": 8.9, "reb": 7.5, "ast": 1.0, "rob": 0.6, "tap": 2.1},
+    {"nombre": "Andrea Palacios", "equipo": "apx", "pos": "G", "num": 2, "pj": 4, "pts": 9.8, "reb": 3.2, "ast": 10.5, "rob": 2.7, "tap": 0.2},
+    {"nombre": "Luis Chévez", "equipo": "apx", "pos": "F", "num": 14, "pj": 4, "pts": 11.2, "reb": 8.0, "ast": 1.8, "rob": 1.0, "tap": 1.1},
+    {"nombre": "Gerardo Molina", "equipo": "apx", "pos": "C", "num": 50, "pj": 4, "pts": 8.7, "reb": 6.8, "ast": 0.8, "rob": 0.4, "tap": 1.8},
+    {"nombre": "Samuel Rivas", "equipo": "apx", "pos": "G", "num": 9, "pj": 4, "pts": 7.5, "reb": 2.4, "ast": 4.1, "rob": 1.5, "tap": 0.1},
+    {"nombre": "Diego Santamaría", "equipo": "war", "pos": "G", "num": 0, "pj": 4, "pts": 18.3, "reb": 4.6, "ast": 10.3, "rob": 2.4, "tap": 0.4},
+    {"nombre": "Raúl Interiano", "equipo": "war", "pos": "F", "num": 13, "pj": 4, "pts": 14.7, "reb": 5.9, "ast": 2.6, "rob": 1.4, "tap": 0.5},
+    {"nombre": "Ernesto Cañas", "equipo": "war", "pos": "C", "num": 34, "pj": 4, "pts": 12.2, "reb": 8.6, "ast": 1.2, "rob": 0.6, "tap": 2.3},
+    {"nombre": "Walter Pleitez", "equipo": "war", "pos": "F", "num": 22, "pj": 4, "pts": 10.1, "reb": 4.8, "ast": 2.0, "rob": 1.1, "tap": 0.4},
+    {"nombre": "Fernando Ávalos", "equipo": "hlc", "pos": "G", "num": 6, "pj": 4, "pts": 10.9, "reb": 2.8, "ast": 5.7, "rob": 1.9, "tap": 0.2},
+    {"nombre": "Karla Escobar", "equipo": "hlc", "pos": "G", "num": 17, "pj": 4, "pts": 9.3, "reb": 2.5, "ast": 5.1, "rob": 2.2, "tap": 0.1},
+    {"nombre": "Héctor Granillo", "equipo": "hlc", "pos": "F", "num": 25, "pj": 4, "pts": 8.8, "reb": 5.6, "ast": 1.5, "rob": 0.8, "tap": 0.6},
+    {"nombre": "Iván Portillo", "equipo": "hlc", "pos": "C", "num": 41, "pj": 3, "pts": 7.2, "reb": 6.4, "ast": 0.7, "rob": 0.3, "tap": 1.4},
+    {"nombre": "José Amaya", "equipo": "ttn", "pos": "G", "num": 4, "pj": 4, "pts": 11.4, "reb": 3.1, "ast": 9.7, "rob": 2.0, "tap": 0.2},
+    {"nombre": "Ricardo Landaverde", "equipo": "ttn", "pos": "F", "num": 12, "pj": 4, "pts": 10.6, "reb": 8.0, "ast": 1.9, "rob": 1.0, "tap": 1.0},
+    {"nombre": "Manuel Cornejo", "equipo": "ttn", "pos": "C", "num": 55, "pj": 4, "pts": 8.1, "reb": 6.9, "ast": 0.9, "rob": 0.5, "tap": 1.7},
+    {"nombre": "Pedro Serrano", "equipo": "ttn", "pos": "G", "num": 19, "pj": 4, "pts": 6.9, "reb": 2.2, "ast": 3.8, "rob": 1.3, "tap": 0.1},
+    {"nombre": "Adonay Montoya", "equipo": "rpt", "pos": "G", "num": 24, "pj": 4, "pts": 10.3, "reb": 2.7, "ast": 6.0, "rob": 1.8, "tap": 0.2},
+    {"nombre": "Denis Hernández", "equipo": "rpt", "pos": "F", "num": 33, "pj": 4, "pts": 9.9, "reb": 5.2, "ast": 1.6, "rob": 0.9, "tap": 0.5},
+    {"nombre": "Julio Argueta", "equipo": "rpt", "pos": "C", "num": 42, "pj": 4, "pts": 7.6, "reb": 6.6, "ast": 0.8, "rob": 0.4, "tap": 1.5},
+    {"nombre": "Saúl Miralda", "equipo": "rpt", "pos": "G", "num": 16, "pj": 3, "pts": 6.2, "reb": 2.0, "ast": 3.3, "rob": 1.2, "tap": 0.1}
+  ]
+};

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>LBJ · Torneo Navideño 2026</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow:wght@400;600;800&family=Barlow+Condensed:wght@600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+<div class="demo-band">⚠️ DEMO TÉCNICA: Datos ficticios para mostrar funcionalidad.</div>
+
+<div id="wipe" class="wipe">
+  <div class="wipe-barras"><i></i><i></i><i></i><i></i><i></i></div>
+  <div class="wipe-placa"><small>LBJ · Jiquilisco</small><h2 id="wipe-titulo">Inicio</h2></div>
+</div>
+
+<header class="cabecera">
+  <div class="contenedor cabecera-inner">
+    <div class="marca">
+      <div class="balon-escena">
+        <div class="balon-giro">
+          <div class="balon"><i class="l1"></i><i class="l2"></i><i class="l3"></i><i class="l4"></i></div>
+          <div class="balon-sombra"></div>
+        </div>
+      </div>
+      <div class="titulos">
+        <p class="org">Liga Local de Baloncesto de Jiquilisco</p>
+        <h1>Torneo <span class="navidad">Navideño</span> <span class="anio">2026</span></h1>
+        <p class="lema">«Tardes Alegres de Baloncesto» · Parque Roberto Edmundo Canessa</p>
+      </div>
+    </div>
+    <aside class="patrocinador pc-only">
+      <div class="patro-logo"><svg viewBox="0 0 64 64"><circle cx="32" cy="32" r="29" fill="none" stroke="#FFC53D" stroke-width="3"/><circle cx="32" cy="32" r="22" fill="#F07C1F"/><path d="M10 32h44M32 10v44M17 17c9 8 9 22 0 30M47 17c-9 8-9 22 0 30" stroke="#171009" stroke-width="2.6" fill="none"/><path d="M6 44 Q32 58 58 44" stroke="#2EC4B6" stroke-width="3" fill="none"/></svg></div>
+      <div class="patro-texto"><small>Patrocinador oficial</small><b>Comité Hermanos Lejanos</b><span>Pro-Basketball de Jiquilisco</span><em>Desde EE.UU. con amor 🧡</em></div>
+    </aside>
+  </div>
+  <div class="franja">
+    <div class="contenedor franja-inner">
+      <span class="franja-txt">8 equipos · Jiquilisco, Usulután</span>
+      <span class="franja-jor">Jornada <b id="fr-ja">4</b> de <b>7</b> <span class="ticks" id="fr-ticks"></span></span>
+      <span class="franja-cuenta" id="fr-cuenta"></span>
+    </div>
+  </div>
+</header>
+
+<nav class="barra">
+  <div class="contenedor">
+    <div class="tabs" id="tabs">
+      <button data-tab="inicio" class="active">Inicio</button>
+      <button data-tab="posiciones">Posiciones</button>
+      <button data-tab="resultados">Resultados</button>
+      <button data-tab="lideres">Líderes</button>
+      <button data-tab="equipos">Equipos</button>
+      <button data-tab="playoffs">Playoffs</button>
+      <button data-tab="torneo">El Torneo</button>
+    </div>
+  </div>
+</nav>
+
+<main class="contenedor" id="app"></main>
+
+<footer class="pie">
+  <div class="contenedor pie-grid">
+    <div>
+      <p class="pie-marca">LBJ <span>· Liga Local de Baloncesto de Jiquilisco</span></p>
+      <p class="muted">Parque Roberto Edmundo Canessa · Domingos 5:00 p.m.</p>
+      <p class="muted" id="pie-act"></p>
+    </div>
+    <div class="pie-patro">
+      <small>Con el apoyo de</small>
+      <b>Comité Hermanos Lejanos Pro-Basketball</b>
+      <span class="muted">Fomentando el crecimiento integral mediante el baloncesto.</span>
+    </div>
+  </div>
+  <div class="contenedor pie-demo">Demostración con datos ficticios.</div>
+</footer>
+
+<button id="patro-chip" class="patro-chip"><span class="chip-balon"></span> Hermanos Lejanos</button>
+<div id="patro-hoja" class="patro-hoja">
+  <div class="patro-hoja-caja">
+    <button class="patro-cerrar" id="patro-cerrar">✕</button>
+    <div class="patro-logo grande"><svg viewBox="0 0 64 64"><circle cx="32" cy="32" r="29" fill="none" stroke="#FFC53D" stroke-width="3"/><circle cx="32" cy="32" r="22" fill="#F07C1F"/><path d="M10 32h44M32 10v44M17 17c9 8 9 22 0 30M47 17c-9 8-9 22 0 30" stroke="#171009" stroke-width="2.6" fill="none"/><path d="M6 44 Q32 58 58 44" stroke="#2EC4B6" stroke-width="3" fill="none"/></svg></div>
+    <small>Patrocinador oficial</small>
+    <h3>Comité Hermanos Lejanos</h3>
+    <p class="sub">Pro-Basketball de Jiquilisco</p>
+    <p>Iniciativa que busca fomentar el crecimiento integral de los jóvenes mediante el baloncesto.</p>
+    <p class="firma">🧡 Gracias por hacer posibles las Tardes Alegres.</p>
+  </div>
+</div>
+
+<script src="datos.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
